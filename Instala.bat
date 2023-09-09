@@ -1,0 +1,3 @@
+setx PATH "%CD%"
+
+pause
