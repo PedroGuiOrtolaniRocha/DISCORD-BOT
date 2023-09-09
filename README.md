@@ -1,4 +1,5 @@
 # DISCORD-BOT
+
 Bot local para tocar musicas no discord.
 
 Esse foi meu primeiro projeto pessoal e tinha mais funcionalidades, porem para gerar um programa mais leve e sem grandes problemas tive que reduzir seu uso ao essencial apenas.
