@@ -2,8 +2,6 @@
 
 Bot local para tocar musicas no discord.
 
-Esse foi meu primeiro projeto pessoal e tinha mais funcionalidades, porem para gerar um programa mais leve e sem grandes problemas tive que reduzir seu uso ao essencial apenas.
-
 O bot é compativel com python 3.11.5 e usa o Pyinstaller para poder ser executado no Windows ou diretamente com python.
 
 # ANTES DE INSTALAR
@@ -19,7 +17,6 @@ O bot é compativel com python 3.11.5 e usa o Pyinstaller para poder ser executa
 BOT.rar - https://www.mediafire.com/file/zzdl34ik03roea0/BOT.rar/file
 
 BOT.py - https://www.mediafire.com/folder/z4yzadshzhzav/BOT
-
 
 # INSTALAÇÃO         
 
@@ -37,6 +34,8 @@ para criar e usar o bot, você deve:
 
 
  # IMPORTANTE
+
+Só é possivel usar o bot em um canal por vez.
 
 Esse projeto não recebera mais atualizações e conta com um alto nivel de amadorismo, então não é bem otimizado e é sucetivel a bugs.
 
