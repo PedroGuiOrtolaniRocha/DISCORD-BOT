@@ -14,7 +14,7 @@ O bot é compativel com python 3.11.5 e usa o Pyinstaller para poder ser executa
 
 # DOWNLOADS
 
-BOT.rar - https://www.mediafire.com/file/zzdl34ik03roea0/BOT.rar/file
+BOT.zip - https://www.mediafire.com/file/nrhn5zvaucom8xg/BOT.zip/file
 
 BOT.py - https://www.mediafire.com/folder/z4yzadshzhzav/BOT
 
@@ -22,7 +22,7 @@ BOT.py - https://www.mediafire.com/folder/z4yzadshzhzav/BOT
 
 para criar e usar o bot, você deve: 
 
- 1 - baixar o arquivo BOT.rar ou a pasta BOT
+ 1 - baixar o arquivo BOT.zip ou a pasta BOT
 
  2 - descompactar e entrar na pasta BOT
 
