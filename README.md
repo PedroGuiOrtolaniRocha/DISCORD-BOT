@@ -2,7 +2,7 @@
 
 Bot local para tocar musicas no discord.
 
-O bot é compativel com python 3.11.5 e usa o Pyinstaller para poder ser executado no Windows ou diretamente com python.
+O bot é compativel com python 3.10.6 ou superior e usa o Pyinstaller para poder ser executado no Windows, Linux ou diretamente com python.
 
 # ANTES DE INSTALAR
  
@@ -18,11 +18,13 @@ BOT.zip - https://www.mediafire.com/file/nrhn5zvaucom8xg/BOT.zip/file
 
 BOT.py - https://www.mediafire.com/folder/z4yzadshzhzav/BOT
 
-# INSTALAÇÃO         
+BOT.tar.xz - https://www.mediafire.com/file/ab6csmnfgba1lco/BOT.tar.xz/file
+
+# INSTALAÇÃO WINDOWS
 
 para criar e usar o bot, você deve: 
 
- 1 - baixar o arquivo BOT.zip ou a pasta BOT
+ 1 - baixar o arquivo BOT.zip 
 
  2 - descompactar e entrar na pasta BOT
 
@@ -30,8 +32,19 @@ para criar e usar o bot, você deve:
 
  4 - caso ja tenha FFmpeg e FFprobe adicionados ao PATH do sistema, altere o campo vezes_usado para 1 do arquivo bots.json
 
- 5 - abra o arquivo BOT.exe ou execute BOT.py com python, na primeira vez, o .bat sera executado para utilizar o FFmpeg
+ 5 - abra o arquivo BOT.exe, na primeira vez o .bat sera executado para utilizar o FFmpeg
 
+# INSTALAÇÃO UBUNTU 22.04
+
+ 1 - baixar BOT.tar.xz ou a pasta VersaoUbuntu no github 
+ 
+ 2 - descompactar e entrar na pasta BOT
+
+ 3 - cole o token do seu bot no campo senha do arquivo bots.json
+
+ 4 - abra a pasta do BOT no terminal e digite: chmod +x install.sh
+
+ 5 - ja pode utilizar atraves do arquivo BOT.sh
 
  # IMPORTANTE
 

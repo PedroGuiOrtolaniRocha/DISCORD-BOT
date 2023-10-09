@@ -1,3 +1,0 @@
-setx PATH "%CD%"
-
-pause
