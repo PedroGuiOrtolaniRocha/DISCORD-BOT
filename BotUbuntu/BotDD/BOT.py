@@ -14,13 +14,6 @@ robo = pega_info()
 
 token = robo['senha']
 
-vezes_usado = robo['vezes_usado']
-
-if vezes_usado == 0:
-    
-    robo['vezes_usado'] += 1
-    os.startfile('instala.bat')
-
 salva_info(robo)
 
 
