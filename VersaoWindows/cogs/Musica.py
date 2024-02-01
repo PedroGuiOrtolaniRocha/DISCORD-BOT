@@ -9,7 +9,6 @@ from pytube import Playlist
 import asyncio
 from BotDD.configs import pega_info
 from colorama import init, Fore
-import time
 
 init()
 
@@ -77,15 +76,10 @@ class Musica(commands.Cog):
             
             link = musica.url(pedido)
             
-            await context.send(f'adicionando {musica.pegatitle(link)}')
-            
             fila.append(arg)
             filap.append(musica.pegatitle(link))
-            
-            time.sleep(1)
-
-            nfila = " \n".join(filap[0:])
-            
+            await context.send(f'adicionando {musica.pegatitle(link)}')
+            nfila = " \n".join(filap[1:])
             print(f'Fila - {cor["amarelo"]}{nfila}{cor["reset"]}')
         
         try:
@@ -113,6 +107,8 @@ class Musica(commands.Cog):
         except Exception as e: 
             print('Não consegui tocar') 
             print(e)
+
+        print('estou na call ' + str(voice.channel))
 
     ############ pula ###################
 

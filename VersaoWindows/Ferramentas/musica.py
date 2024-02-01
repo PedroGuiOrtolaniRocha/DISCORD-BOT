@@ -13,11 +13,11 @@ def download_audio(yt_url):
     ydl_opts = {
 
         'format': 'bestaudio/best',
-        'quiet': True,
         'postprocessors': [{
+            
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'wav',
-            'preferredquality': '192'
+            'preferredquality': '192',
         
         }],
         }

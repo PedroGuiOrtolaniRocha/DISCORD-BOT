@@ -53,6 +53,6 @@ async def on_ready():
     await load_extensions()
 
 def start():    
-    client.run(token)
+    client.run(token, log_handler=None)
 
 start()

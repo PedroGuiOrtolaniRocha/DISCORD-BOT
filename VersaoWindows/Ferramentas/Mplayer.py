@@ -19,10 +19,12 @@ async def tocar(context,voice,fila,filap):
                 
     musica.main(fila[0])
     music = musica.newest_wav_filename()
-    source = FFmpegOpusAudio(music, before_options="-guess_layout_max 0")
+    source = FFmpegOpusAudio(music)
     urlemb =  musica.url(fila[0])
     tempos = [musica.pegamin(urlemb), musica.pegaseg(urlemb)]
    
+    player = voice.play(source, after = print(f'Tocando:{cor["verde"]}{musica.pegatitle(urlemb)}{cor["reset"]}'))
+
     if tempos[1] < 10:
         
         tempos[1] = f'{tempos[1] :02d}'
@@ -34,10 +36,9 @@ async def tocar(context,voice,fila,filap):
     thumb = musica.pegathumb(urlemb), 
     tempo= tempo
     )
-    
-    player = voice.play(source, after = print(f'Tocando: {cor["verde"]}{musica.pegatitle(urlemb)}{cor["reset"]}, em {str(voice.channel)} a pedido de {cor["amarelo"]}{context.message.author.name}{cor["reset"]}'))
-
+                        
     await context.send(embed = card)
+    print('entrei na call ' + str(voice.channel))
 
     while voice.is_playing():
     
