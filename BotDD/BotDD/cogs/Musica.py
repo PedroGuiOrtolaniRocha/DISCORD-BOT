@@ -37,6 +37,9 @@ class Musica(commands.Cog):
 
     @commands.command(name= 'p')
     async def entra(self, context,*,arg):
+
+        if arg.__contains__(r"'"):
+            arg = arg.replace(r"'", '')
         
         lixo.lixospec()
         pedido = ''.join(arg)
